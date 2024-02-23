@@ -1,6 +1,6 @@
 ### Homework #1
 
-Homework #5 description:
+###Homework #5 description:
 
 Треба реалізувати просту програму з наступними умовами:
 
