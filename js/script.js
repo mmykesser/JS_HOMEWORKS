@@ -15,8 +15,8 @@ console.log('User name: '+nameUser);
 
 // Task #3
 
-let ex1 = 10 +'10' ;
-let ex2 =10;
+const ex1 = 10 +'10' ;
+const ex2 = 10;
 
 console.log(ex1+' Type of: ' + typeof ex1);
 console.log(ex2+' Type of: '+ typeof ex2);
