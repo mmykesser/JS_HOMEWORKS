@@ -11,8 +11,9 @@ if (isNaN(temp)){
     result = 'It will be '+(temp - 32) * 5 / 9 + ' degrees Celsius';
 } else  if (type.toUpperCase() === 'C'){
     result = 'It will be '+((temp * 9 / 5) + 32) + ' degrees Fahrenheit';
-} else
+} else {
     result = 'Error, select the correct temperature unit';
+}
 
 alert(result);
 
