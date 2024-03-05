@@ -8,7 +8,7 @@ if (!isNaN(firstNumber)) {
         const thirdNumber = Number(prompt('Please enter the third number'));
         if (!isNaN(thirdNumber)) {
             const sum = (firstNumber + secondNumber + thirdNumber) / 3;
-            console.log('Arithmetic mean is '+ sum);
+            alert('Arithmetic mean is '+ sum);
         } else {
             console.log('Error, please enter only numbers');
         }
