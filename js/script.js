@@ -26,23 +26,23 @@ if (city == null) {
     country = 'You live in a ' + city;
 }
 
-if (sport === null) {
-    champion = 'It\'s a pity that you didn\'t want to specify your favorite sport';
-} else {
-    switch (sport) {
-        case 'Boxing':
-            champion = 'Cool! Do you want to be Wladimir Klitschko?';
-            break;
-        case 'Football':
-            champion = 'Cool! Do you want to be Cristiano Ronaldo?';
-            break;
-        case 'Athletics':
-            champion = 'Cool! Do you want to be Usain Bolt?';
-            break;
-        default:
-            champion = 'Become a champion';
-    }
+switch (sport) {
+    case null:
+        champion = 'It\'s a pity that you didn\'t want to specify your favorite sport';
+        break;
+    case 'Boxing':
+        champion = 'Cool! Do you want to be Wladimir Klitschko?';
+        break;
+    case 'Football':
+        champion = 'Cool! Do you want to be Cristiano Ronaldo?';
+        break;
+    case 'Athletics':
+        champion = 'Cool! Do you want to be Usain Bolt?';
+        break;
+    default:
+        champion = 'Become a champion';
 }
+
 
 alert('Your age is ' + age + ' years old \n'
     + country + '\n' + champion);
