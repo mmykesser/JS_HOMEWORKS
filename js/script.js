@@ -4,9 +4,9 @@ const year = prompt('Please enter your year of birth');
 const city = prompt('What city do you live in?');
 const sport = prompt('What is your favorite sport? \n Boxing, Football, Athletics ? ');
 
-let age;
-let country;
-let champion;
+let age = null;
+let country = null;
+let champion = null;
 
 if (year === null) {
     age = ('It\'s a pity you didn\'t want to enter your age');
