@@ -26,5 +26,5 @@ console.log(padString('Hello', 2));
 console.log(padString(2, 'Hello'));
 console.log(padString('Hello', 'Hello'));
 console.log(padString('Hello', 7, '$$'));
-console.log(padString('Hello', 7, '$', 'NFC'))
+console.log(padString('Hello', 7, '$', 'N'))
 
